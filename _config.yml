@@ -1,22 +1,22 @@
 # --- Basic options --- #
 
 # Name of website
-title: My website
+title: tiger-chan.github.io
 
 # Short description of your site
 description: A virtual proof that I'm awesome
 
 # Your name to show in the footer
-author: Some Person
+author: Tiger-Chan
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+#  Resources:
+#    - Beautiful Jekyll: "https://beautifuljekyll.com"
+#    - Learn markdown: "https://www.markdowntutorial.com/"
+#  Author's home: "https://deanattali.com"
 
 # --- Logo --- #
 
@@ -38,15 +38,15 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 # If you don't want to show a link to an RSS feed, set rss to "false".
 social-network-links:
-  email: "someone@example.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  rss: true
+  email: "anthony.r.young@gmail.com"
+#  facebook: deanattali
+  github: tiger-chan
+  twitter: TigerChan_AY
+#  rss: true
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: anthony-y-29392098
 #  xing: yourname
-#  stackoverflow: "3943160/daattali"
+  stackoverflow: "3951487/tigerchan"
 #  snapchat: deanat78
 #  instagram: deanat78
 #  youtube: user/deanat78
@@ -66,13 +66,13 @@ social-network-links:
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
+  facebook: false
   linkedin: true
   vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "tiger-chan.github.io"
 
 # Create a "tags" index page and make tags on each post clickable
 link-tags: true
@@ -84,15 +84,15 @@ excerpt_length: 50
 
 # Personalize the colors in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#F5F5F5"
-navbar-text-col: "#404040"
-navbar-border-col: "#EAEAEA"
-page-col: "#FFFFFF"
+navbar-col: "#404040"
+navbar-text-col: "#F5F5F5"
+navbar-border-col: "#525252"
+page-col: "#7A7A7A"
 link-col: "#008AFF"
 hover-col: "#0085A1"
-footer-col: "#F5F5F5"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
+footer-col: "#404040"
+footer-text-col: "#F5F5F5"
+footer-link-col: "#B9C9D6"
 
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
@@ -168,7 +168,7 @@ date_format: "%B %-d, %Y"
 # --- You don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "America/Denver"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
